@@ -1,0 +1,3 @@
+# QXIOSHttp
+一个用IOS语言包括Object-c和swift封装的便于快速开发的网络架构
+1.先添加的是Object-C封装的，以后会添加Swift，主要是分别基于系统自带的NSURLSession和AFNetworking封装了两套。
