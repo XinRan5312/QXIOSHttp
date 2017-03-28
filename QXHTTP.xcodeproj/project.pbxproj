@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B84F523063ED200BED405F4 /* libPods-QXHTTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CECBBC5B47C6341FC1AB7EB3 /* libPods-QXHTTP.a */; };
+		B01352431E88A7AD00FAE803 /* StudentModle.m in Sources */ = {isa = PBXBuildFile; fileRef = B01352421E88A7AD00FAE803 /* StudentModle.m */; };
+		B01352461E88B34B00FAE803 /* QXYYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B01352451E88B34B00FAE803 /* QXYYModel.m */; };
+		B01352491E88EA4800FAE803 /* ClassesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B01352481E88EA4800FAE803 /* ClassesModel.m */; };
+		B013524C1E88EF5D00FAE803 /* DifKeysStudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B013524B1E88EF5D00FAE803 /* DifKeysStudentModel.m */; };
+		B013524F1E88F5B200FAE803 /* DicAndSetAndArrayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B013524E1E88F5B200FAE803 /* DicAndSetAndArrayModel.m */; };
+		B01352561E8A371F00FAE803 /* QXAFNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B01352551E8A371F00FAE803 /* QXAFNetworkTools.m */; };
+		B0CE73291E83C59D00C7E39B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE73281E83C59D00C7E39B /* main.m */; };
+		B0CE732C1E83C59D00C7E39B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE732B1E83C59D00C7E39B /* AppDelegate.m */; };
+		B0CE732F1E83C59D00C7E39B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE732E1E83C59D00C7E39B /* ViewController.m */; };
+		B0CE73321E83C59D00C7E39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CE73301E83C59D00C7E39B /* Main.storyboard */; };
+		B0CE73351E83C59D00C7E39B /* QXHTTP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0CE73331E83C59D00C7E39B /* QXHTTP.xcdatamodeld */; };
+		B0CE73371E83C59D00C7E39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CE73361E83C59D00C7E39B /* Assets.xcassets */; };
+		B0CE733A1E83C59D00C7E39B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CE73381E83C59D00C7E39B /* LaunchScreen.storyboard */; };
+		B0CE73431E84B0BE00C7E39B /* QXBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE73421E84B0BE00C7E39B /* QXBaseRequest.m */; };
+		B0CE73461E84B48700C7E39B /* QXHttpConfigution.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE73451E84B48700C7E39B /* QXHttpConfigution.m */; };
+		B0CE73491E84BE3C00C7E39B /* QXHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE73481E84BE3C00C7E39B /* QXHTTPResponse.m */; };
+		B0CE734C1E84CA3200C7E39B /* QXHTTPMenager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE734B1E84CA3200C7E39B /* QXHTTPMenager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8805DEA8692C5EFF75D517AC /* Pods-QXHTTP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXHTTP.release.xcconfig"; path = "Pods/Target Support Files/Pods-QXHTTP/Pods-QXHTTP.release.xcconfig"; sourceTree = "<group>"; };
+		B01352411E88A7AD00FAE803 /* StudentModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModle.h; sourceTree = "<group>"; };
+		B01352421E88A7AD00FAE803 /* StudentModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModle.m; sourceTree = "<group>"; };
+		B01352441E88B34B00FAE803 /* QXYYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXYYModel.h; sourceTree = "<group>"; };
+		B01352451E88B34B00FAE803 /* QXYYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXYYModel.m; sourceTree = "<group>"; };
+		B01352471E88EA4800FAE803 /* ClassesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassesModel.h; sourceTree = "<group>"; };
+		B01352481E88EA4800FAE803 /* ClassesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassesModel.m; sourceTree = "<group>"; };
+		B013524A1E88EF5D00FAE803 /* DifKeysStudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DifKeysStudentModel.h; sourceTree = "<group>"; };
+		B013524B1E88EF5D00FAE803 /* DifKeysStudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DifKeysStudentModel.m; sourceTree = "<group>"; };
+		B013524D1E88F5B200FAE803 /* DicAndSetAndArrayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DicAndSetAndArrayModel.h; sourceTree = "<group>"; };
+		B013524E1E88F5B200FAE803 /* DicAndSetAndArrayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DicAndSetAndArrayModel.m; sourceTree = "<group>"; };
+		B01352541E8A371F00FAE803 /* QXAFNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXAFNetworkTools.h; sourceTree = "<group>"; };
+		B01352551E8A371F00FAE803 /* QXAFNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXAFNetworkTools.m; sourceTree = "<group>"; };
+		B0CE73241E83C59D00C7E39B /* QXHTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QXHTTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CE73281E83C59D00C7E39B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0CE732A1E83C59D00C7E39B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0CE732B1E83C59D00C7E39B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0CE732D1E83C59D00C7E39B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0CE732E1E83C59D00C7E39B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0CE73311E83C59D00C7E39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0CE73341E83C59D00C7E39B /* QXHTTP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QXHTTP.xcdatamodel; sourceTree = "<group>"; };
+		B0CE73361E83C59D00C7E39B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0CE73391E83C59D00C7E39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0CE733B1E83C59D00C7E39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CE73411E84B0BE00C7E39B /* QXBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXBaseRequest.h; sourceTree = "<group>"; };
+		B0CE73421E84B0BE00C7E39B /* QXBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXBaseRequest.m; sourceTree = "<group>"; };
+		B0CE73441E84B48700C7E39B /* QXHttpConfigution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXHttpConfigution.h; sourceTree = "<group>"; };
+		B0CE73451E84B48700C7E39B /* QXHttpConfigution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXHttpConfigution.m; sourceTree = "<group>"; };
+		B0CE73471E84BE3C00C7E39B /* QXHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXHTTPResponse.h; sourceTree = "<group>"; };
+		B0CE73481E84BE3C00C7E39B /* QXHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXHTTPResponse.m; sourceTree = "<group>"; };
+		B0CE734A1E84CA3200C7E39B /* QXHTTPMenager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXHTTPMenager.h; sourceTree = "<group>"; };
+		B0CE734B1E84CA3200C7E39B /* QXHTTPMenager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXHTTPMenager.m; sourceTree = "<group>"; };
+		CECBBC5B47C6341FC1AB7EB3 /* libPods-QXHTTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QXHTTP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D359FB6D33417673678F64F2 /* Pods-QXHTTP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXHTTP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QXHTTP/Pods-QXHTTP.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0CE73211E83C59D00C7E39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B84F523063ED200BED405F4 /* libPods-QXHTTP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BDE0AF04E2E7501BCFDD82C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D359FB6D33417673678F64F2 /* Pods-QXHTTP.debug.xcconfig */,
+				8805DEA8692C5EFF75D517AC /* Pods-QXHTTP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A4A9C7B663643CD46F779E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CECBBC5B47C6341FC1AB7EB3 /* libPods-QXHTTP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B01352401E88A78700FAE803 /* modles */ = {
+			isa = PBXGroup;
+			children = (
+				B01352411E88A7AD00FAE803 /* StudentModle.h */,
+				B01352421E88A7AD00FAE803 /* StudentModle.m */,
+				B01352441E88B34B00FAE803 /* QXYYModel.h */,
+				B01352451E88B34B00FAE803 /* QXYYModel.m */,
+				B01352471E88EA4800FAE803 /* ClassesModel.h */,
+				B01352481E88EA4800FAE803 /* ClassesModel.m */,
+				B013524A1E88EF5D00FAE803 /* DifKeysStudentModel.h */,
+				B013524B1E88EF5D00FAE803 /* DifKeysStudentModel.m */,
+				B013524D1E88F5B200FAE803 /* DicAndSetAndArrayModel.h */,
+				B013524E1E88F5B200FAE803 /* DicAndSetAndArrayModel.m */,
+			);
+			path = modles;
+			sourceTree = "<group>";
+		};
+		B01352531E8A36E800FAE803 /* AFNetworkingHttp */ = {
+			isa = PBXGroup;
+			children = (
+				B01352541E8A371F00FAE803 /* QXAFNetworkTools.h */,
+				B01352551E8A371F00FAE803 /* QXAFNetworkTools.m */,
+			);
+			path = AFNetworkingHttp;
+			sourceTree = "<group>";
+		};
+		B0CE731B1E83C59D00C7E39B = {
+			isa = PBXGroup;
+			children = (
+				B01352531E8A36E800FAE803 /* AFNetworkingHttp */,
+				B01352401E88A78700FAE803 /* modles */,
+				B0CE73261E83C59D00C7E39B /* QXHTTP */,
+				B0CE73251E83C59D00C7E39B /* Products */,
+				0BDE0AF04E2E7501BCFDD82C /* Pods */,
+				6A4A9C7B663643CD46F779E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0CE73251E83C59D00C7E39B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE73241E83C59D00C7E39B /* QXHTTP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0CE73261E83C59D00C7E39B /* QXHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE732A1E83C59D00C7E39B /* AppDelegate.h */,
+				B0CE732B1E83C59D00C7E39B /* AppDelegate.m */,
+				B0CE732D1E83C59D00C7E39B /* ViewController.h */,
+				B0CE732E1E83C59D00C7E39B /* ViewController.m */,
+				B0CE73301E83C59D00C7E39B /* Main.storyboard */,
+				B0CE73361E83C59D00C7E39B /* Assets.xcassets */,
+				B0CE73381E83C59D00C7E39B /* LaunchScreen.storyboard */,
+				B0CE733B1E83C59D00C7E39B /* Info.plist */,
+				B0CE73331E83C59D00C7E39B /* QXHTTP.xcdatamodeld */,
+				B0CE73271E83C59D00C7E39B /* Supporting Files */,
+				B0CE73411E84B0BE00C7E39B /* QXBaseRequest.h */,
+				B0CE73421E84B0BE00C7E39B /* QXBaseRequest.m */,
+				B0CE73441E84B48700C7E39B /* QXHttpConfigution.h */,
+				B0CE73451E84B48700C7E39B /* QXHttpConfigution.m */,
+				B0CE73471E84BE3C00C7E39B /* QXHTTPResponse.h */,
+				B0CE73481E84BE3C00C7E39B /* QXHTTPResponse.m */,
+				B0CE734A1E84CA3200C7E39B /* QXHTTPMenager.h */,
+				B0CE734B1E84CA3200C7E39B /* QXHTTPMenager.m */,
+			);
+			path = QXHTTP;
+			sourceTree = "<group>";
+		};
+		B0CE73271E83C59D00C7E39B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE73281E83C59D00C7E39B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0CE73231E83C59D00C7E39B /* QXHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CE733E1E83C59D00C7E39B /* Build configuration list for PBXNativeTarget "QXHTTP" */;
+			buildPhases = (
+				98402CB7B2289B7CC3A7E4B9 /* [CP] Check Pods Manifest.lock */,
+				B0CE73201E83C59D00C7E39B /* Sources */,
+				B0CE73211E83C59D00C7E39B /* Frameworks */,
+				B0CE73221E83C59D00C7E39B /* Resources */,
+				5FD6CA673D91037D70E22A6D /* [CP] Embed Pods Frameworks */,
+				C9BA7544B4967B6666B8746E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QXHTTP;
+			productName = QXHTTP;
+			productReference = B0CE73241E83C59D00C7E39B /* QXHTTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0CE731C1E83C59D00C7E39B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.wrqx;
+				TargetAttributes = {
+					B0CE73231E83C59D00C7E39B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B0CE731F1E83C59D00C7E39B /* Build configuration list for PBXProject "QXHTTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0CE731B1E83C59D00C7E39B;
+			productRefGroup = B0CE73251E83C59D00C7E39B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0CE73231E83C59D00C7E39B /* QXHTTP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0CE73221E83C59D00C7E39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CE733A1E83C59D00C7E39B /* LaunchScreen.storyboard in Resources */,
+				B0CE73371E83C59D00C7E39B /* Assets.xcassets in Resources */,
+				B0CE73321E83C59D00C7E39B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FD6CA673D91037D70E22A6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QXHTTP/Pods-QXHTTP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98402CB7B2289B7CC3A7E4B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9BA7544B4967B6666B8746E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QXHTTP/Pods-QXHTTP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0CE73201E83C59D00C7E39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CE73351E83C59D00C7E39B /* QXHTTP.xcdatamodeld in Sources */,
+				B0CE732F1E83C59D00C7E39B /* ViewController.m in Sources */,
+				B0CE734C1E84CA3200C7E39B /* QXHTTPMenager.m in Sources */,
+				B0CE73461E84B48700C7E39B /* QXHttpConfigution.m in Sources */,
+				B0CE732C1E83C59D00C7E39B /* AppDelegate.m in Sources */,
+				B01352491E88EA4800FAE803 /* ClassesModel.m in Sources */,
+				B0CE73491E84BE3C00C7E39B /* QXHTTPResponse.m in Sources */,
+				B01352461E88B34B00FAE803 /* QXYYModel.m in Sources */,
+				B01352561E8A371F00FAE803 /* QXAFNetworkTools.m in Sources */,
+				B01352431E88A7AD00FAE803 /* StudentModle.m in Sources */,
+				B0CE73291E83C59D00C7E39B /* main.m in Sources */,
+				B0CE73431E84B0BE00C7E39B /* QXBaseRequest.m in Sources */,
+				B013524C1E88EF5D00FAE803 /* DifKeysStudentModel.m in Sources */,
+				B013524F1E88F5B200FAE803 /* DicAndSetAndArrayModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0CE73301E83C59D00C7E39B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CE73311E83C59D00C7E39B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0CE73381E83C59D00C7E39B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CE73391E83C59D00C7E39B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0CE733C1E83C59D00C7E39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0CE733D1E83C59D00C7E39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0CE733F1E83C59D00C7E39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D359FB6D33417673678F64F2 /* Pods-QXHTTP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QXHTTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ran.QXHTTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0CE73401E83C59D00C7E39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8805DEA8692C5EFF75D517AC /* Pods-QXHTTP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QXHTTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ran.QXHTTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0CE731F1E83C59D00C7E39B /* Build configuration list for PBXProject "QXHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CE733C1E83C59D00C7E39B /* Debug */,
+				B0CE733D1E83C59D00C7E39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CE733E1E83C59D00C7E39B /* Build configuration list for PBXNativeTarget "QXHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CE733F1E83C59D00C7E39B /* Debug */,
+				B0CE73401E83C59D00C7E39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0CE73331E83C59D00C7E39B /* QXHTTP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0CE73341E83C59D00C7E39B /* QXHTTP.xcdatamodel */,
+			);
+			currentVersion = B0CE73341E83C59D00C7E39B /* QXHTTP.xcdatamodel */;
+			path = QXHTTP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0CE731C1E83C59D00C7E39B /* Project object */;
+}
