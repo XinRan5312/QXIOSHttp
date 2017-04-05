@@ -14,6 +14,8 @@
 		B013524C1E88EF5D00FAE803 /* DifKeysStudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B013524B1E88EF5D00FAE803 /* DifKeysStudentModel.m */; };
 		B013524F1E88F5B200FAE803 /* DicAndSetAndArrayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B013524E1E88F5B200FAE803 /* DicAndSetAndArrayModel.m */; };
 		B01352561E8A371F00FAE803 /* QXAFNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B01352551E8A371F00FAE803 /* QXAFNetworkTools.m */; };
+		B013525A1E8E4D1400FAE803 /* QXImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B01352591E8E4D1400FAE803 /* QXImageManager.m */; };
+		B0243AF51E9493390038DE84 /* QXRACManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0243AF41E9493390038DE84 /* QXRACManager.m */; };
 		B0CE73291E83C59D00C7E39B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE73281E83C59D00C7E39B /* main.m */; };
 		B0CE732C1E83C59D00C7E39B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE732B1E83C59D00C7E39B /* AppDelegate.m */; };
 		B0CE732F1E83C59D00C7E39B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE732E1E83C59D00C7E39B /* ViewController.m */; };
@@ -41,6 +43,10 @@
 		B013524E1E88F5B200FAE803 /* DicAndSetAndArrayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DicAndSetAndArrayModel.m; sourceTree = "<group>"; };
 		B01352541E8A371F00FAE803 /* QXAFNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXAFNetworkTools.h; sourceTree = "<group>"; };
 		B01352551E8A371F00FAE803 /* QXAFNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXAFNetworkTools.m; sourceTree = "<group>"; };
+		B01352581E8E4D1400FAE803 /* QXImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXImageManager.h; sourceTree = "<group>"; };
+		B01352591E8E4D1400FAE803 /* QXImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXImageManager.m; sourceTree = "<group>"; };
+		B0243AF31E9493390038DE84 /* QXRACManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXRACManager.h; sourceTree = "<group>"; };
+		B0243AF41E9493390038DE84 /* QXRACManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXRACManager.m; sourceTree = "<group>"; };
 		B0CE73241E83C59D00C7E39B /* QXHTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QXHTTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CE73281E83C59D00C7E39B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0CE732A1E83C59D00C7E39B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,9 +125,29 @@
 			path = AFNetworkingHttp;
 			sourceTree = "<group>";
 		};
+		B01352571E8E475700FAE803 /* imageManager */ = {
+			isa = PBXGroup;
+			children = (
+				B01352581E8E4D1400FAE803 /* QXImageManager.h */,
+				B01352591E8E4D1400FAE803 /* QXImageManager.m */,
+			);
+			path = imageManager;
+			sourceTree = "<group>";
+		};
+		B0243AF21E9493130038DE84 /* rac */ = {
+			isa = PBXGroup;
+			children = (
+				B0243AF31E9493390038DE84 /* QXRACManager.h */,
+				B0243AF41E9493390038DE84 /* QXRACManager.m */,
+			);
+			path = rac;
+			sourceTree = "<group>";
+		};
 		B0CE731B1E83C59D00C7E39B = {
 			isa = PBXGroup;
 			children = (
+				B0243AF21E9493130038DE84 /* rac */,
+				B01352571E8E475700FAE803 /* imageManager */,
 				B01352531E8A36E800FAE803 /* AFNetworkingHttp */,
 				B01352401E88A78700FAE803 /* modles */,
 				B0CE73261E83C59D00C7E39B /* QXHTTP */,
@@ -294,8 +320,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B013525A1E8E4D1400FAE803 /* QXImageManager.m in Sources */,
 				B0CE73351E83C59D00C7E39B /* QXHTTP.xcdatamodeld in Sources */,
 				B0CE732F1E83C59D00C7E39B /* ViewController.m in Sources */,
+				B0243AF51E9493390038DE84 /* QXRACManager.m in Sources */,
 				B0CE734C1E84CA3200C7E39B /* QXHTTPMenager.m in Sources */,
 				B0CE73461E84B48700C7E39B /* QXHttpConfigution.m in Sources */,
 				B0CE732C1E83C59D00C7E39B /* AppDelegate.m in Sources */,
