@@ -33,4 +33,14 @@ RACSignal *signal=[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> sub
         
     }];
 }
+-(RACSignal*) bindSignal:(RACSignal*) origenSignal bindBock:(RACStreamBindBlock(^)(void)) bindblock{
+ return [origenSignal bind:^RACStreamBindBlock{
+     return ^RACSignal *(NSString *str,BOOL *stop){
+         str=[NSString stringWithString:str];
+         return [RACSignal return:str];
+     };
+ }
+         ];
+
+}
 @end

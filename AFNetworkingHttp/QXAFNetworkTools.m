@@ -23,7 +23,7 @@
     NSURLCache *urlCache=[[NSURLCache alloc]initWithMemoryCapacity:16*1024*1024 diskCapacity:60*1024*1024 diskPath:nil];
     [config setURLCache:urlCache];
     
-        _urlSessionManager=[[AFURLSessionManager alloc]initWithSessionConfiguration:config];
+        _urlSessionManager=[[AFURLSessionManager alloc] initWithSessionConfiguration:config];
         //设置返回解析方式有好多种看源码
         _urlSessionManager.responseSerializer=[AFJSONResponseSerializer serializer];
         _baseUrl=@"";

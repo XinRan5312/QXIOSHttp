@@ -15,7 +15,11 @@
 		B013524F1E88F5B200FAE803 /* DicAndSetAndArrayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B013524E1E88F5B200FAE803 /* DicAndSetAndArrayModel.m */; };
 		B01352561E8A371F00FAE803 /* QXAFNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B01352551E8A371F00FAE803 /* QXAFNetworkTools.m */; };
 		B013525A1E8E4D1400FAE803 /* QXImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B01352591E8E4D1400FAE803 /* QXImageManager.m */; };
+		B01F64421EA9D77F0084594D /* QXFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B01F64411EA9D77F0084594D /* QXFileManager.m */; };
 		B0243AF51E9493390038DE84 /* QXRACManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0243AF41E9493390038DE84 /* QXRACManager.m */; };
+		B0243AF91E95D5060038DE84 /* UIViewController+QXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0243AF81E95D5060038DE84 /* UIViewController+QXViewController.m */; };
+		B0243AFC1E95D6500038DE84 /* TestCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0243AFB1E95D6500038DE84 /* TestCategoryViewController.m */; };
+		B0243AFF1E95DB9D0038DE84 /* NeiBuCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B0243AFE1E95DB9D0038DE84 /* NeiBuCategory.m */; };
 		B0CE73291E83C59D00C7E39B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE73281E83C59D00C7E39B /* main.m */; };
 		B0CE732C1E83C59D00C7E39B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE732B1E83C59D00C7E39B /* AppDelegate.m */; };
 		B0CE732F1E83C59D00C7E39B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE732E1E83C59D00C7E39B /* ViewController.m */; };
@@ -45,8 +49,16 @@
 		B01352551E8A371F00FAE803 /* QXAFNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXAFNetworkTools.m; sourceTree = "<group>"; };
 		B01352581E8E4D1400FAE803 /* QXImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXImageManager.h; sourceTree = "<group>"; };
 		B01352591E8E4D1400FAE803 /* QXImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXImageManager.m; sourceTree = "<group>"; };
+		B01F64401EA9D77F0084594D /* QXFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXFileManager.h; sourceTree = "<group>"; };
+		B01F64411EA9D77F0084594D /* QXFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXFileManager.m; sourceTree = "<group>"; };
 		B0243AF31E9493390038DE84 /* QXRACManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXRACManager.h; sourceTree = "<group>"; };
 		B0243AF41E9493390038DE84 /* QXRACManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXRACManager.m; sourceTree = "<group>"; };
+		B0243AF71E95D5060038DE84 /* UIViewController+QXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QXViewController.h"; sourceTree = "<group>"; };
+		B0243AF81E95D5060038DE84 /* UIViewController+QXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+QXViewController.m"; sourceTree = "<group>"; };
+		B0243AFA1E95D6500038DE84 /* TestCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCategoryViewController.h; sourceTree = "<group>"; };
+		B0243AFB1E95D6500038DE84 /* TestCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCategoryViewController.m; sourceTree = "<group>"; };
+		B0243AFD1E95DB9D0038DE84 /* NeiBuCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeiBuCategory.h; sourceTree = "<group>"; };
+		B0243AFE1E95DB9D0038DE84 /* NeiBuCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeiBuCategory.m; sourceTree = "<group>"; };
 		B0CE73241E83C59D00C7E39B /* QXHTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QXHTTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CE73281E83C59D00C7E39B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0CE732A1E83C59D00C7E39B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -134,6 +146,15 @@
 			path = imageManager;
 			sourceTree = "<group>";
 		};
+		B01F643F1EA9D7540084594D /* filemananger */ = {
+			isa = PBXGroup;
+			children = (
+				B01F64401EA9D77F0084594D /* QXFileManager.h */,
+				B01F64411EA9D77F0084594D /* QXFileManager.m */,
+			);
+			path = filemananger;
+			sourceTree = "<group>";
+		};
 		B0243AF21E9493130038DE84 /* rac */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,9 +164,24 @@
 			path = rac;
 			sourceTree = "<group>";
 		};
+		B0243AF61E95D4930038DE84 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				B0243AF71E95D5060038DE84 /* UIViewController+QXViewController.h */,
+				B0243AF81E95D5060038DE84 /* UIViewController+QXViewController.m */,
+				B0243AFA1E95D6500038DE84 /* TestCategoryViewController.h */,
+				B0243AFB1E95D6500038DE84 /* TestCategoryViewController.m */,
+				B0243AFD1E95DB9D0038DE84 /* NeiBuCategory.h */,
+				B0243AFE1E95DB9D0038DE84 /* NeiBuCategory.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
 		B0CE731B1E83C59D00C7E39B = {
 			isa = PBXGroup;
 			children = (
+				B01F643F1EA9D7540084594D /* filemananger */,
+				B0243AF61E95D4930038DE84 /* category */,
 				B0243AF21E9493130038DE84 /* rac */,
 				B01352571E8E475700FAE803 /* imageManager */,
 				B01352531E8A36E800FAE803 /* AFNetworkingHttp */,
@@ -321,9 +357,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B013525A1E8E4D1400FAE803 /* QXImageManager.m in Sources */,
+				B0243AFF1E95DB9D0038DE84 /* NeiBuCategory.m in Sources */,
 				B0CE73351E83C59D00C7E39B /* QXHTTP.xcdatamodeld in Sources */,
 				B0CE732F1E83C59D00C7E39B /* ViewController.m in Sources */,
 				B0243AF51E9493390038DE84 /* QXRACManager.m in Sources */,
+				B0243AFC1E95D6500038DE84 /* TestCategoryViewController.m in Sources */,
 				B0CE734C1E84CA3200C7E39B /* QXHTTPMenager.m in Sources */,
 				B0CE73461E84B48700C7E39B /* QXHttpConfigution.m in Sources */,
 				B0CE732C1E83C59D00C7E39B /* AppDelegate.m in Sources */,
@@ -331,6 +369,8 @@
 				B0CE73491E84BE3C00C7E39B /* QXHTTPResponse.m in Sources */,
 				B01352461E88B34B00FAE803 /* QXYYModel.m in Sources */,
 				B01352561E8A371F00FAE803 /* QXAFNetworkTools.m in Sources */,
+				B0243AF91E95D5060038DE84 /* UIViewController+QXViewController.m in Sources */,
+				B01F64421EA9D77F0084594D /* QXFileManager.m in Sources */,
 				B01352431E88A7AD00FAE803 /* StudentModle.m in Sources */,
 				B0CE73291E83C59D00C7E39B /* main.m in Sources */,
 				B0CE73431E84B0BE00C7E39B /* QXBaseRequest.m in Sources */,
@@ -456,6 +496,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QXHTTP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+					"-l\"AFNetworking\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDWebImage\"",
+					"-l\"YYModel\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ran.QXHTTP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -468,6 +531,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QXHTTP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+					"-l\"AFNetworking\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDWebImage\"",
+					"-l\"YYModel\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ran.QXHTTP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
